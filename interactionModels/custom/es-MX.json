@@ -1,0 +1,2148 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "abrete sesame",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "getflores",
+          "slots": [
+            {
+              "name": "flores",
+              "type": "flores"
+            }
+          ],
+          "samples": [
+            "que son {flores}",
+            "define {flores}"
+          ]
+        },
+        {
+          "name": "getactores",
+          "slots": [
+            {
+              "name": "actores",
+              "type": "actores"
+            }
+          ],
+          "samples": [
+            "info de {actores}",
+            "quien es {actores}"
+          ]
+        },
+        {
+          "name": "getanfibios",
+          "slots": [
+            {
+              "name": "anfibios",
+              "type": "anfibios"
+            }
+          ],
+          "samples": [
+            "que es una {anfibios}",
+            "que es un {anfibios} "
+          ]
+        },
+        {
+          "name": "getanimalesacuaticos",
+          "slots": [
+            {
+              "name": "animalesacuaticos",
+              "type": "animalesacuaticos"
+            }
+          ],
+          "samples": [
+            "que es una {animalesacuaticos}",
+            "que es un {animalesacuaticos}"
+          ]
+        },
+        {
+          "name": "getanimalesaereos",
+          "slots": [
+            {
+              "name": "animalesaereos",
+              "type": "animalesaereos"
+            }
+          ],
+          "samples": [
+            "que es una {animalesaereos}",
+            "que es un {animalesaereos} "
+          ]
+        },
+        {
+          "name": "getanimalesterrestres",
+          "slots": [
+            {
+              "name": "animalesterrestres",
+              "type": "animalesterrestres"
+            }
+          ],
+          "samples": [
+            "que es una {animalesterrestres}",
+            "que es un {animalesterrestres}"
+          ]
+        },
+        {
+          "name": "getarte",
+          "slots": [
+            {
+              "name": "arte",
+              "type": "arte"
+            }
+          ],
+          "samples": [
+            "que es lo {arte}",
+            "que es el {arte}"
+          ]
+        },
+        {
+          "name": "getbailes",
+          "slots": [
+            {
+              "name": "bailes",
+              "type": "bailes"
+            }
+          ],
+          "samples": [
+            "que es la {bailes}",
+            "que es el {bailes}"
+          ]
+        },
+        {
+          "name": "getbanderas",
+          "slots": [
+            {
+              "name": "banderas",
+              "type": "banderas"
+            }
+          ],
+          "samples": [
+            "dato sobre bandera de {banderas}"
+          ]
+        },
+        {
+          "name": "getbasuratipos",
+          "slots": [
+            {
+              "name": "basuratipos",
+              "type": "basuratipos"
+            }
+          ],
+          "samples": [
+            "que son los {basuratipos}",
+            "que es la {basuratipos} "
+          ]
+        },
+        {
+          "name": "getbebidas",
+          "slots": [
+            {
+              "name": "bebidas",
+              "type": "bebidas"
+            }
+          ],
+          "samples": [
+            "que es {bebidas}",
+            "dato sobre la {bebidas}"
+          ]
+        },
+        {
+          "name": "getbotanas",
+          "slots": [
+            {
+              "name": "botanas",
+              "type": "botanas"
+            }
+          ],
+          "samples": [
+            "que son las {botanas}",
+            "que son los {botanas}"
+          ]
+        },
+        {
+          "name": "getcalzado",
+          "slots": [
+            {
+              "name": "calzado",
+              "type": "calzado"
+            }
+          ],
+          "samples": [
+            "que son los {calzado}",
+            "que son las {calzado}"
+          ]
+        },
+        {
+          "name": "getcampingtipos",
+          "slots": [
+            {
+              "name": "campingtipos",
+              "type": "campingtipos"
+            }
+          ],
+          "samples": [
+            "camping {campingtipos}"
+          ]
+        },
+        {
+          "name": "getcarnecortes",
+          "slots": [
+            {
+              "name": "carnecortes",
+              "type": "carnecortes"
+            }
+          ],
+          "samples": [
+            "cual es el {carnecortes}"
+          ]
+        },
+        {
+          "name": "getciudades",
+          "slots": [
+            {
+              "name": "ciudades",
+              "type": "ciudades"
+            }
+          ],
+          "samples": [
+            "datos sobre {ciudades}"
+          ]
+        },
+        {
+          "name": "getcolores",
+          "slots": [
+            {
+              "name": "colores",
+              "type": "colores"
+            }
+          ],
+          "samples": [
+            "datos sobre {colores}"
+          ]
+        },
+        {
+          "name": "getcontinentes",
+          "slots": [
+            {
+              "name": "continentes",
+              "type": "continentes"
+            }
+          ],
+          "samples": [
+            "datos sobre {continentes}"
+          ]
+        },
+        {
+          "name": "getdeportes",
+          "slots": [
+            {
+              "name": "deportes",
+              "type": "deportes"
+            }
+          ],
+          "samples": [
+            "datos sobre {deportes}"
+          ]
+        },
+        {
+          "name": "getdesayunos",
+          "slots": [
+            {
+              "name": "desayunos",
+              "type": "desayunos"
+            }
+          ],
+          "samples": [
+            "cual es el {desayunos}"
+          ]
+        },
+        {
+          "name": "getdibujo",
+          "slots": [
+            {
+              "name": "dibujo",
+              "type": "dibujo"
+            }
+          ],
+          "samples": [
+            "que es el dibujo {dibujo}"
+          ]
+        },
+        {
+          "name": "getdinosaurios",
+          "slots": [
+            {
+              "name": "dinosaurios",
+              "type": "dinosaurios"
+            }
+          ],
+          "samples": [
+            "cual es el {dinosaurios}"
+          ]
+        },
+        {
+          "name": "getdirectores",
+          "slots": [
+            {
+              "name": "directores",
+              "type": "directores"
+            }
+          ],
+          "samples": [
+            "quien es {directores}"
+          ]
+        },
+        {
+          "name": "getdragones",
+          "slots": [
+            {
+              "name": "dragones",
+              "type": "dragones"
+            }
+          ],
+          "samples": [
+            "quien es {dragones}"
+          ]
+        },
+        {
+          "name": "getelementos",
+          "slots": [
+            {
+              "name": "elementos",
+              "type": "elementos"
+            }
+          ],
+          "samples": [
+            "que es la {elementos}",
+            "que es el {elementos}"
+          ]
+        },
+        {
+          "name": "getescritores",
+          "slots": [
+            {
+              "name": "escritores",
+              "type": "escritores"
+            }
+          ],
+          "samples": [
+            "quien es {escritores}"
+          ]
+        },
+        {
+          "name": "getestados",
+          "slots": [
+            {
+              "name": "estados",
+              "type": "estados"
+            }
+          ],
+          "samples": [
+            "datos sobre {estados}"
+          ]
+        },
+        {
+          "name": "getetnias",
+          "slots": [
+            {
+              "name": "etnias",
+              "type": "etnias"
+            }
+          ],
+          "samples": [
+            "datos sobre {etnias}"
+          ]
+        },
+        {
+          "name": "getfrutas",
+          "slots": [
+            {
+              "name": "frutas",
+              "type": "frutas"
+            }
+          ],
+          "samples": [
+            "que es la {frutas}"
+          ]
+        },
+        {
+          "name": "getfrutosrojos",
+          "slots": [
+            {
+              "name": "frutosrojos",
+              "type": "frutosrojos"
+            }
+          ],
+          "samples": [
+            "que es la {frutosrojos}"
+          ]
+        },
+        {
+          "name": "getgalaxias",
+          "slots": [
+            {
+              "name": "galaxias",
+              "type": "galaxias"
+            }
+          ],
+          "samples": [
+            "datos sobre {galaxias}"
+          ]
+        },
+        {
+          "name": "getgatos",
+          "slots": [
+            {
+              "name": "gatos",
+              "type": "gatos"
+            }
+          ],
+          "samples": [
+            "datos sobre {gatos}",
+            "quien es {gatos}"
+          ]
+        },
+        {
+          "name": "getgenerolibro",
+          "slots": [
+            {
+              "name": "generolibro",
+              "type": "generolibro"
+            }
+          ],
+          "samples": [
+            "libros de {generolibro}"
+          ]
+        },
+        {
+          "name": "gethaircuts",
+          "slots": [
+            {
+              "name": "haircuts",
+              "type": "haircuts"
+            }
+          ],
+          "samples": [
+            "que es el corte {haircuts}"
+          ]
+        },
+        {
+          "name": "gethogwartscasas",
+          "slots": [
+            {
+              "name": "hogwartscasas",
+              "type": "hogwartscasas"
+            }
+          ],
+          "samples": [
+            "datos sobre {hogwartscasas}"
+          ]
+        },
+        {
+          "name": "gethojas",
+          "slots": [
+            {
+              "name": "hojas",
+              "type": "hojas"
+            }
+          ],
+          "samples": [
+            "hoja tamaño {hojas}"
+          ]
+        },
+        {
+          "name": "getidiomas",
+          "slots": [
+            {
+              "name": "idiomas",
+              "type": "idiomas"
+            }
+          ],
+          "samples": [
+            "{idiomas}",
+            "datos sobre el {idiomas}"
+          ]
+        },
+        {
+          "name": "getlibros",
+          "slots": [
+            {
+              "name": "libros",
+              "type": "libros"
+            }
+          ],
+          "samples": [
+            "datos sobre {libros}"
+          ]
+        },
+        {
+          "name": "getmaderas",
+          "slots": [
+            {
+              "name": "maderas",
+              "type": "maderas"
+            }
+          ],
+          "samples": [
+            "datos sobre {maderas}"
+          ]
+        },
+        {
+          "name": "getmangakas",
+          "slots": [
+            {
+              "name": "mangakas",
+              "type": "mangakas"
+            }
+          ],
+          "samples": [
+            "quien es {mangakas}"
+          ]
+        },
+        {
+          "name": "getmariscos",
+          "slots": [
+            {
+              "name": "mariscos",
+              "type": "mariscos"
+            }
+          ],
+          "samples": [
+            "datos sobre {mariscos} "
+          ]
+        },
+        {
+          "name": "getmuebles",
+          "slots": [
+            {
+              "name": "muebles",
+              "type": "muebles"
+            }
+          ],
+          "samples": [
+            "datos sobre {muebles}"
+          ]
+        },
+        {
+          "name": "getmunicipios",
+          "slots": [
+            {
+              "name": "municipios",
+              "type": "municipios"
+            }
+          ],
+          "samples": [
+            "datos sobre {municipios}"
+          ]
+        },
+        {
+          "name": "getmusicageneros",
+          "slots": [
+            {
+              "name": "musicageneros",
+              "type": "musicageneros"
+            }
+          ],
+          "samples": [
+            "canciones de {musicageneros}"
+          ]
+        },
+        {
+          "name": "getosos",
+          "slots": [
+            {
+              "name": "osos",
+              "type": "osos"
+            }
+          ],
+          "samples": [
+            "datos sobre {osos}"
+          ]
+        },
+        {
+          "name": "getpaises",
+          "slots": [
+            {
+              "name": "paises",
+              "type": "paises"
+            }
+          ],
+          "samples": [
+            "datos sobre {paises}"
+          ]
+        },
+        {
+          "name": "getpajaros",
+          "slots": [
+            {
+              "name": "pajaros",
+              "type": "pajaros"
+            }
+          ],
+          "samples": [
+            "datos sobre {pajaros}"
+          ]
+        },
+        {
+          "name": "getpantallas",
+          "slots": [
+            {
+              "name": "pantallas",
+              "type": "pantallas"
+            }
+          ],
+          "samples": [
+            "que es {pantallas}"
+          ]
+        },
+        {
+          "name": "getpapel",
+          "slots": [
+            {
+              "name": "papel",
+              "type": "papel"
+            }
+          ],
+          "samples": [
+            "datos sobre el {papel}"
+          ]
+        },
+        {
+          "name": "getpeinados",
+          "slots": [
+            {
+              "name": "peinados",
+              "type": "peinados"
+            }
+          ],
+          "samples": [
+            "cual es el peinado {peinados}"
+          ]
+        },
+        {
+          "name": "getpelisgeneros",
+          "slots": [
+            {
+              "name": "pelisgeneros",
+              "type": "pelisgeneros"
+            }
+          ],
+          "samples": [
+            "peliculas de {pelisgeneros}"
+          ]
+        },
+        {
+          "name": "getperifericos",
+          "slots": [
+            {
+              "name": "perifericos",
+              "type": "perifericos"
+            }
+          ],
+          "samples": [
+            "que es un {perifericos}"
+          ]
+        },
+        {
+          "name": "getperros",
+          "slots": [
+            {
+              "name": "perros",
+              "type": "perros"
+            }
+          ],
+          "samples": [
+            "datos sobre {perros}"
+          ]
+        },
+        {
+          "name": "getplanetas",
+          "slots": [
+            {
+              "name": "planetas",
+              "type": "planetas"
+            }
+          ],
+          "samples": [
+            "datos sobre {planetas}"
+          ]
+        },
+        {
+          "name": "getpokemongen",
+          "slots": [
+            {
+              "name": "pokemongen",
+              "type": "pokemongen"
+            }
+          ],
+          "samples": [
+            "datos sobre {pokemongen}"
+          ]
+        },
+        {
+          "name": "getpokemonjuegos",
+          "slots": [
+            {
+              "name": "pokemonjuegos",
+              "type": "pokemonjuegos"
+            }
+          ],
+          "samples": [
+            "datos sobre {pokemonjuegos}"
+          ]
+        },
+        {
+          "name": "getpokemontipo",
+          "slots": [
+            {
+              "name": "pokemontipo",
+              "type": "pokemontipo"
+            }
+          ],
+          "samples": [
+            "pokemon de tipo {pokemontipo}"
+          ]
+        },
+        {
+          "name": "getprefecturas",
+          "slots": [
+            {
+              "name": "prefecturas",
+              "type": "prefecturas"
+            }
+          ],
+          "samples": [
+            "datos sobre {prefecturas}"
+          ]
+        },
+        {
+          "name": "getreptiles",
+          "slots": [
+            {
+              "name": "reptiles",
+              "type": "reptiles"
+            }
+          ],
+          "samples": [
+            "datos sobre {reptiles}"
+          ]
+        },
+        {
+          "name": "getroedores",
+          "slots": [
+            {
+              "name": "roedores",
+              "type": "roedores"
+            }
+          ],
+          "samples": [
+            "datos sobre {roedores}"
+          ]
+        },
+        {
+          "name": "gettelas",
+          "slots": [
+            {
+              "name": "telas",
+              "type": "telas"
+            }
+          ],
+          "samples": [
+            "datos sobre {telas}"
+          ]
+        },
+        {
+          "name": "gettenisbrands",
+          "slots": [
+            {
+              "name": "tenisbrands",
+              "type": "tenisbrands"
+            }
+          ],
+          "samples": [
+            "datos sobre {tenisbrands}"
+          ]
+        },
+        {
+          "name": "gettiposmanga",
+          "slots": [
+            {
+              "name": "tiposmanga",
+              "type": "tiposmanga"
+            }
+          ],
+          "samples": [
+            "mangas {tiposmanga}"
+          ]
+        },
+        {
+          "name": "gettuberculos",
+          "slots": [
+            {
+              "name": "tuberculos",
+              "type": "tuberculos"
+            }
+          ],
+          "samples": [
+            "datos sobre {tuberculos}"
+          ]
+        },
+        {
+          "name": "getvegetales",
+          "slots": [
+            {
+              "name": "vegetales",
+              "type": "vegetales"
+            }
+          ],
+          "samples": [
+            "datos sobre {vegetales}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gardenias"
+              }
+            },
+            {
+              "name": {
+                "value": "girasoles"
+              }
+            },
+            {
+              "name": {
+                "value": "tulipanes"
+              }
+            }
+          ],
+          "name": "flores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "verde"
+              }
+            },
+            {
+              "name": {
+                "value": "morado"
+              }
+            },
+            {
+              "name": {
+                "value": "azul"
+              }
+            }
+          ],
+          "name": "colores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "A4"
+              }
+            },
+            {
+              "name": {
+                "value": "oficio"
+              }
+            },
+            {
+              "name": {
+                "value": "carta"
+              }
+            }
+          ],
+          "name": "hojas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "It"
+              }
+            },
+            {
+              "name": {
+                "value": "Armada"
+              }
+            },
+            {
+              "name": {
+                "value": "Dune"
+              }
+            }
+          ],
+          "name": "libros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "misterio"
+              }
+            },
+            {
+              "name": {
+                "value": "romance"
+              }
+            },
+            {
+              "name": {
+                "value": "terror"
+              }
+            }
+          ],
+          "name": "generolibro"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Frank Herbert"
+              }
+            },
+            {
+              "name": {
+                "value": "Stephen King"
+              }
+            },
+            {
+              "name": {
+                "value": "George R. R. Martin"
+              }
+            }
+          ],
+          "name": "escritores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Jordan Peele"
+              }
+            },
+            {
+              "name": {
+                "value": "George Lucas"
+              }
+            },
+            {
+              "name": {
+                "value": "Christopher Nolan"
+              }
+            }
+          ],
+          "name": "directores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Kit Harrington"
+              }
+            },
+            {
+              "name": {
+                "value": "Robert Pattinson"
+              }
+            },
+            {
+              "name": {
+                "value": "Charlie Cox"
+              }
+            }
+          ],
+          "name": "actores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pokemon tercera generacion"
+              }
+            },
+            {
+              "name": {
+                "value": "pokemon segunda generacion"
+              }
+            },
+            {
+              "name": {
+                "value": "pokemon primera generacion"
+              }
+            }
+          ],
+          "name": "pokemongen"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Veneno"
+              }
+            },
+            {
+              "name": {
+                "value": "Volador"
+              }
+            },
+            {
+              "name": {
+                "value": "Dragon"
+              }
+            }
+          ],
+          "name": "pokemontipo"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Pokemon Diamante"
+              }
+            },
+            {
+              "name": {
+                "value": "Pokemon Rojo Fuego"
+              }
+            },
+            {
+              "name": {
+                "value": "Pokemon HeartGold"
+              }
+            }
+          ],
+          "name": "pokemonjuegos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "monitor"
+              }
+            },
+            {
+              "name": {
+                "value": "mouse"
+              }
+            },
+            {
+              "name": {
+                "value": "teclado"
+              }
+            }
+          ],
+          "name": "perifericos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tierra"
+              }
+            },
+            {
+              "name": {
+                "value": "aire"
+              }
+            },
+            {
+              "name": {
+                "value": "fuego"
+              }
+            },
+            {
+              "name": {
+                "value": "agua"
+              }
+            }
+          ],
+          "name": "elementos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "poliester"
+              }
+            },
+            {
+              "name": {
+                "value": "algodon"
+              }
+            },
+            {
+              "name": {
+                "value": "seda"
+              }
+            }
+          ],
+          "name": "telas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "animado"
+              }
+            },
+            {
+              "name": {
+                "value": "geometrico"
+              }
+            },
+            {
+              "name": {
+                "value": "mano alzada"
+              }
+            }
+          ],
+          "name": "dibujo"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "renacentista"
+              }
+            },
+            {
+              "name": {
+                "value": "barroco"
+              }
+            },
+            {
+              "name": {
+                "value": "abstracto"
+              }
+            }
+          ],
+          "name": "arte"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "LG"
+              }
+            },
+            {
+              "name": {
+                "value": "Toshiba"
+              }
+            },
+            {
+              "name": {
+                "value": "Samsung"
+              }
+            }
+          ],
+          "name": "pantallas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Puma"
+              }
+            },
+            {
+              "name": {
+                "value": "Adidas"
+              }
+            },
+            {
+              "name": {
+                "value": "Nike"
+              }
+            }
+          ],
+          "name": "tenisbrands"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Gege Akutami"
+              }
+            },
+            {
+              "name": {
+                "value": "Hirohiko Araki"
+              }
+            },
+            {
+              "name": {
+                "value": "Hajime Izayama"
+              }
+            }
+          ],
+          "name": "mangakas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "shojo"
+              }
+            },
+            {
+              "name": {
+                "value": "seinen"
+              }
+            },
+            {
+              "name": {
+                "value": "shonen"
+              }
+            }
+          ],
+          "name": "tiposmanga"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "velociraptor"
+              }
+            },
+            {
+              "name": {
+                "value": "triceratops"
+              }
+            },
+            {
+              "name": {
+                "value": "t-rex"
+              }
+            }
+          ],
+          "name": "dinosaurios"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "canguro"
+              }
+            },
+            {
+              "name": {
+                "value": "koala"
+              }
+            },
+            {
+              "name": {
+                "value": "cocodrilo"
+              }
+            }
+          ],
+          "name": "animalesterrestres"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ballena"
+              }
+            },
+            {
+              "name": {
+                "value": "marsopa"
+              }
+            },
+            {
+              "name": {
+                "value": "delfin"
+              }
+            }
+          ],
+          "name": "animalesacuaticos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "paloma"
+              }
+            },
+            {
+              "name": {
+                "value": "zopilote"
+              }
+            },
+            {
+              "name": {
+                "value": "aguila"
+              }
+            }
+          ],
+          "name": "animalesaereos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pop"
+              }
+            },
+            {
+              "name": {
+                "value": "rock"
+              }
+            },
+            {
+              "name": {
+                "value": "rap"
+              }
+            }
+          ],
+          "name": "musicageneros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "accion"
+              }
+            },
+            {
+              "name": {
+                "value": "suspenso"
+              }
+            },
+            {
+              "name": {
+                "value": "comedia"
+              }
+            }
+          ],
+          "name": "pelisgeneros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cebada"
+              }
+            },
+            {
+              "name": {
+                "value": "horchata"
+              }
+            },
+            {
+              "name": {
+                "value": "coca cola"
+              }
+            }
+          ],
+          "name": "bebidas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "afro"
+              }
+            },
+            {
+              "name": {
+                "value": "trenzas"
+              }
+            },
+            {
+              "name": {
+                "value": "cola alta"
+              }
+            }
+          ],
+          "name": "peinados"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bowl"
+              }
+            },
+            {
+              "name": {
+                "value": "mullet"
+              }
+            },
+            {
+              "name": {
+                "value": "buzz"
+              }
+            }
+          ],
+          "name": "haircuts"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "husky"
+              }
+            },
+            {
+              "name": {
+                "value": "corgi"
+              }
+            },
+            {
+              "name": {
+                "value": "pug"
+              }
+            }
+          ],
+          "name": "perros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sphynx"
+              }
+            },
+            {
+              "name": {
+                "value": "felix"
+              }
+            },
+            {
+              "name": {
+                "value": "garfield"
+              }
+            }
+          ],
+          "name": "gatos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ardilla"
+              }
+            },
+            {
+              "name": {
+                "value": "hamster"
+              }
+            },
+            {
+              "name": {
+                "value": "raton"
+              }
+            }
+          ],
+          "name": "roedores"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sillon"
+              }
+            },
+            {
+              "name": {
+                "value": "silla"
+              }
+            },
+            {
+              "name": {
+                "value": "mesa"
+              }
+            }
+          ],
+          "name": "muebles"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fresa"
+              }
+            },
+            {
+              "name": {
+                "value": "frambuesa"
+              }
+            },
+            {
+              "name": {
+                "value": "cereza"
+              }
+            }
+          ],
+          "name": "frutosrojos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "zanahoria"
+              }
+            },
+            {
+              "name": {
+                "value": "rabano"
+              }
+            },
+            {
+              "name": {
+                "value": "patata"
+              }
+            }
+          ],
+          "name": "tuberculos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "langosta"
+              }
+            },
+            {
+              "name": {
+                "value": "pulpo"
+              }
+            },
+            {
+              "name": {
+                "value": "camaron"
+              }
+            }
+          ],
+          "name": "mariscos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "betabel"
+              }
+            },
+            {
+              "name": {
+                "value": "apio"
+              }
+            },
+            {
+              "name": {
+                "value": "lechuga"
+              }
+            }
+          ],
+          "name": "vegetales"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "papaya"
+              }
+            },
+            {
+              "name": {
+                "value": "manzana"
+              }
+            },
+            {
+              "name": {
+                "value": "banana"
+              }
+            }
+          ],
+          "name": "frutas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "flamenco"
+              }
+            },
+            {
+              "name": {
+                "value": "salsa"
+              }
+            },
+            {
+              "name": {
+                "value": "tango"
+              }
+            }
+          ],
+          "name": "bailes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cedro"
+              }
+            },
+            {
+              "name": {
+                "value": "pino"
+              }
+            },
+            {
+              "name": {
+                "value": "abeto"
+              }
+            }
+          ],
+          "name": "maderas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "polaco"
+              }
+            },
+            {
+              "name": {
+                "value": "arabe"
+              }
+            },
+            {
+              "name": {
+                "value": "estoniano"
+              }
+            }
+          ],
+          "name": "idiomas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Canada"
+              }
+            },
+            {
+              "name": {
+                "value": "Turquia"
+              }
+            },
+            {
+              "name": {
+                "value": "Finlandia"
+              }
+            }
+          ],
+          "name": "paises"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "europa"
+              }
+            },
+            {
+              "name": {
+                "value": "oceania"
+              }
+            },
+            {
+              "name": {
+                "value": "america"
+              }
+            }
+          ],
+          "name": "continentes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "marruecos"
+              }
+            },
+            {
+              "name": {
+                "value": "polonia"
+              }
+            },
+            {
+              "name": {
+                "value": "australia"
+              }
+            }
+          ],
+          "name": "banderas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "madrid"
+              }
+            },
+            {
+              "name": {
+                "value": "singapur"
+              }
+            },
+            {
+              "name": {
+                "value": "new york"
+              }
+            }
+          ],
+          "name": "ciudades"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Tokyo"
+              }
+            },
+            {
+              "name": {
+                "value": "Miyagi"
+              }
+            },
+            {
+              "name": {
+                "value": "Nagano"
+              }
+            }
+          ],
+          "name": "prefecturas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Tamaulipas"
+              }
+            },
+            {
+              "name": {
+                "value": "Guanajauto"
+              }
+            },
+            {
+              "name": {
+                "value": "Sinaloa"
+              }
+            }
+          ],
+          "name": "estados"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "La Paz"
+              }
+            },
+            {
+              "name": {
+                "value": "Los Cabos"
+              }
+            },
+            {
+              "name": {
+                "value": "Loreto"
+              }
+            }
+          ],
+          "name": "municipios"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "egipcios"
+              }
+            },
+            {
+              "name": {
+                "value": "judios"
+              }
+            },
+            {
+              "name": {
+                "value": "arabes"
+              }
+            }
+          ],
+          "name": "etnias"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "drogon"
+              }
+            },
+            {
+              "name": {
+                "value": "smaug"
+              }
+            },
+            {
+              "name": {
+                "value": "wyvern"
+              }
+            }
+          ],
+          "name": "dragones"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pretzels"
+              }
+            },
+            {
+              "name": {
+                "value": "papitas"
+              }
+            },
+            {
+              "name": {
+                "value": "cacahuates"
+              }
+            }
+          ],
+          "name": "botanas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vidrios"
+              }
+            },
+            {
+              "name": {
+                "value": "organica"
+              }
+            },
+            {
+              "name": {
+                "value": "inorganica"
+              }
+            }
+          ],
+          "name": "basuratipos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "rural"
+              }
+            },
+            {
+              "name": {
+                "value": "campo"
+              }
+            },
+            {
+              "name": {
+                "value": "playa"
+              }
+            }
+          ],
+          "name": "campingtipos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "volleyball"
+              }
+            },
+            {
+              "name": {
+                "value": "tenis"
+              }
+            },
+            {
+              "name": {
+                "value": "futbol"
+              }
+            }
+          ],
+          "name": "deportes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "grizzly"
+              }
+            },
+            {
+              "name": {
+                "value": "pardo"
+              }
+            },
+            {
+              "name": {
+                "value": "polar"
+              }
+            }
+          ],
+          "name": "osos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "occidental"
+              }
+            },
+            {
+              "name": {
+                "value": "americano"
+              }
+            },
+            {
+              "name": {
+                "value": "continental"
+              }
+            }
+          ],
+          "name": "desayunos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "guacamaya"
+              }
+            },
+            {
+              "name": {
+                "value": "carpintero"
+              }
+            },
+            {
+              "name": {
+                "value": "colibri"
+              }
+            }
+          ],
+          "name": "pajaros"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "lagartija"
+              }
+            },
+            {
+              "name": {
+                "value": "sapo"
+              }
+            },
+            {
+              "name": {
+                "value": "rana"
+              }
+            }
+          ],
+          "name": "anfibios"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tortuga"
+              }
+            },
+            {
+              "name": {
+                "value": "caiman"
+              }
+            },
+            {
+              "name": {
+                "value": "serpiente"
+              }
+            }
+          ],
+          "name": "reptiles"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vacio"
+              }
+            },
+            {
+              "name": {
+                "value": "tomahawk"
+              }
+            },
+            {
+              "name": {
+                "value": "rib eye"
+              }
+            }
+          ],
+          "name": "carnecortes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "chanclas"
+              }
+            },
+            {
+              "name": {
+                "value": "tenis"
+              }
+            },
+            {
+              "name": {
+                "value": "zapatillas"
+              }
+            }
+          ],
+          "name": "calzado"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "papel crepe"
+              }
+            },
+            {
+              "name": {
+                "value": "papel higienico"
+              }
+            },
+            {
+              "name": {
+                "value": "papel china"
+              }
+            }
+          ],
+          "name": "papel"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Marte"
+              }
+            },
+            {
+              "name": {
+                "value": "Jupiter"
+              }
+            },
+            {
+              "name": {
+                "value": "Saturno"
+              }
+            }
+          ],
+          "name": "planetas"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "triangulo"
+              }
+            },
+            {
+              "name": {
+                "value": "via lactea"
+              }
+            },
+            {
+              "name": {
+                "value": "andromeda"
+              }
+            }
+          ],
+          "name": "galaxias"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Hufflepuff"
+              }
+            },
+            {
+              "name": {
+                "value": "Slytherin"
+              }
+            },
+            {
+              "name": {
+                "value": "Gryffindor"
+              }
+            },
+            {
+              "name": {
+                "value": "Ravenclaw"
+              }
+            }
+          ],
+          "name": "hogwartscasas"
+        }
+      ]
+    }
+  },
+  "version": "11"
+}

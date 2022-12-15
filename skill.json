@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-west-2:674997969776:function:f56f54f4-7e55-4d55-b074-f4c6cfcc8534:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:674997969776:function:f56f54f4-7e55-4d55-b074-f4c6cfcc8534:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:674997969776:function:f56f54f4-7e55-4d55-b074-f4c6cfcc8534:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:674997969776:function:f56f54f4-7e55-4d55-b074-f4c6cfcc8534:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-MX": {
+          "name": "Nani skill"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
